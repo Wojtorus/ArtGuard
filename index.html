@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtGuard</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Hej ho!</h1>
+    <p id="info">Wojtek!!!!!!</p>
+    <button id="test" class="abc">TEST</button>
+    <p>
+        <a href="link_to_create_new">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="4">
+                    <h3>Strefa Zewnetrzna</h3>
+                </th>
+            </tr>
+            <tr>
+                <th>Nr Karty</th>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody id = "StrefaZewnetrzna">
+            <!-- This part needs dynamic data. For example purposes, static data is shown. -->
+           
+            <!-- Repeat the above <tr> for each item -->
+            <tr>
+                <td><b>SUMA Pracownikow:</b></td>
+                <td>Count</td>
+            </tr>
+        </tbody>
+    </table> 
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="4" ><h3>Strefa Transakcji</h3></th>
+            </tr>
+            <tr>
+                <th>Nr Karty</th>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody id = "StrefaTransakcji">
+           
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="4"><h3>Strefa Operacyjna</h3></th>
+            </tr>
+            <tr>
+                <th>Nr Karty</th>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody id = "StrefaOperacyjna">
+            <!-- This part needs dynamic data. For example purposes, static data is shown. -->
+        
+        </tbody>
+    </table>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="4"><h3>Strefa Zabezpieczona</h3></th>
+            </tr>
+            <tr>
+                <th>Nr Karty</th>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody id = "StrefaZabezpieczona">
+            <!-- This part needs dynamic data. For example purposes, static data is shown. -->
+
+        </tbody>
+    </table>
+    <script type="module" src="./src/index.ts"></script>
+</body>
+</html>
